@@ -1,8 +1,7 @@
 package main
 
 import (
-	"fmt"
-	"projects/godesde0/exercicios"
+	"projects/godesde0/iteracao"
 )
 
 func main() {
@@ -25,7 +24,11 @@ func main() {
 		fmt.Printf("%s \n", os)
 	}*/
 
-	numero, texto := exercicios.ConvNumerico("AAAAAA")
+	/*numero, texto := exercicios.ConvNumerico("AAAAAA")
 	fmt.Println(numero)
-	fmt.Println(texto)
+	fmt.Println(texto)*/
+
+	//teclado.EntradaNumeros()
+
+	iteracao.Iterar()
 }
