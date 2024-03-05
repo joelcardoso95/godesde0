@@ -1,7 +1,8 @@
 package main
 
 import (
-	"projects/godesde0/iteracao"
+	//"fmt"
+	"projects/godesde0/files"
 )
 
 func main() {
@@ -30,5 +31,11 @@ func main() {
 
 	//teclado.EntradaNumeros()
 
-	iteracao.Iterar()
+	//iteracao.Iterar()
+
+	//fmt.Println(exercicios.Tabuada())
+
+	//files.SalvarTabuada()
+	//files.GravarTabuadas()
+	files.LerArquivo()
 }
