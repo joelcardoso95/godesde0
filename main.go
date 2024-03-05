@@ -2,7 +2,7 @@ package main
 
 import (
 	//"fmt"
-	"projects/godesde0/files"
+	arraysslices "projects/godesde0/arrays_slices"
 )
 
 func main() {
@@ -37,5 +37,7 @@ func main() {
 
 	//files.SalvarTabuada()
 	//files.GravarTabuadas()
-	files.LerArquivo()
+	//files.LerArquivo()
+
+	arraysslices.Capacidade()
 }
