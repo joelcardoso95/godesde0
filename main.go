@@ -2,7 +2,9 @@ package main
 
 import (
 	//"fmt"
-	arraysslices "projects/godesde0/arrays_slices"
+	//exer_interface "projects/godesde0/exer_interfaces"
+	//"projects/godesde0/model"
+	"projects/godesde0/defer_panic"
 )
 
 func main() {
@@ -39,5 +41,14 @@ func main() {
 	//files.GravarTabuadas()
 	//files.LerArquivo()
 
-	arraysslices.Capacidade()
+	//arraysslices.Capacidade()
+	//	mapas.MostrarMapas()
+	//users.CriaUsuario()
+
+	/*Pedro := new(model.Homem)
+	exer_interface.HumanosRespirando(Pedro)
+
+	Maria := new(model.Mulher)
+	exer_interface.HumanosRespirando(Maria)*/
+	defer_panic.ExemploPanic()
 }
