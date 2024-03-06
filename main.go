@@ -1,7 +1,7 @@
 package main
 
 import (
-	"projects/godesde0/webserver"
+	"projects/godesde0/middleware"
 )
 
 func main() {
@@ -53,5 +53,5 @@ func main() {
 	fmt.Println("Estou aqui")
 
 	<-canal1*/
-	webserver.MeuWebServer()
+	middleware.Middleware()
 }
