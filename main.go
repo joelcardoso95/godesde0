@@ -1,10 +1,7 @@
 package main
 
 import (
-	//"fmt"
-	//exer_interface "projects/godesde0/exer_interfaces"
-	//"projects/godesde0/model"
-	"projects/godesde0/defer_panic"
+	"projects/godesde0/webserver"
 )
 
 func main() {
@@ -50,5 +47,11 @@ func main() {
 
 	Maria := new(model.Mulher)
 	exer_interface.HumanosRespirando(Maria)*/
-	defer_panic.ExemploPanic()
+
+	/*canal1 := make(chan bool)
+	go goroutines.MeuNomeLento("Joel Cardoso", canal1)
+	fmt.Println("Estou aqui")
+
+	<-canal1*/
+	webserver.MeuWebServer()
 }
